@@ -1,0 +1,206 @@
+/* Comentario */
+/* DESKTOP FIRST 1920 px */
+/* GERAL */
+
+*{
+   box-sizing: border-box;
+}
+
+html {
+    font-size: 10px /* faz o reset do rem*/
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+     margin:0;
+     
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto; 
+    margin-top: 10rem;
+}
+
+/* FONTES */
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size:1.6rem;
+}
+
+a {
+    text-decoration: white;
+}
+
+/* BOTÃO */
+
+.btn {
+    border-radius:3rem;
+    text-orientation: upright;
+    padding: 1rem 2rem ;
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+
+.btn-branco {
+    color: rgb(243, 81, 135);
+    background-color: white;
+}
+
+.btn-roxo {
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    color: rgb(243, 81, 135);
+    border: 1px solid rgb(243, 81, 135);
+    
+   
+    
+
+    
+}
+
+/* UTILIDADES */
+.u-margin-botton-peq {
+    margin-bottom: 2rem;
+    }
+
+    /* HEADER BANNER */
+
+    .banner {
+        background: url(../img/WhatsApp\ Image\ 2021-02-19\ at\ 15.22.58.jpeg) center no-repeat;
+        background-size: cover;
+        height: 90vh;
+        text-align: center;
+        padding-top: 2rem;
+        color: rgb(253, 247, 247);
+    }
+    .banner_titulo {
+        font-size: 5rem;
+        text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;  
+    }
+    
+    .banner_subtitulo {
+        font-size: 2.5rem;
+        text-shadow:  0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;  
+        font-weight: bold;
+    }
+
+     /* SECÃO SOBRE */
+
+     .sobre_titulo {
+         font-size: 5rem;
+         color: lightpink;
+     }
+
+     .sobre-descricao {
+         width: 60%;
+        display: inline-block;
+         line-height: 2;
+         font-size: 2rem;
+        
+
+    }
+    }
+   
+
+    .sobre-habilidades_lista {
+        padding-left: 2rem;
+        line-height: 4;
+        font-size:  1.5rem;
+       }
+
+       .sobre-habilidades {
+        padding-inline-start: 40px;
+           font-size: 1.6rem;
+           vertical-align: top;
+           position: absolute;
+           margin-left: 10rem;
+           width: 50%;
+           display: inline-block;
+           
+          
+           
+            }
+            .sobre-habilidades_titulo {
+                color:rgb(243, 81, 135);
+            }
+    /* REDES SOCIAIS */
+
+    .footer {
+        text-align: center;
+    }
+    .redes-sociais_link {
+        display: inline-block;
+        width: 10%;
+        margin: 0 5rem;
+        text-align: center;
+        color:rgb(243, 81, 135);
+    }
+
+    .redes-sociais_img, .redes-sociais_titulo {
+        display: inline-block;
+        margin-bottom: .10rem;
+        width: 100%;
+        text-align: center;
+    }
+
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+
+/* MEDIA QUERIES */
+/* TABLET PAISAGEM */
+@media (max-width: 1024px){
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 4rem;
+    }
+}
+
+/* TABLET PAISAGEM / CELULAR */
+@media (max-width: 768px){
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 0 10rem;
+    }
+    .sobre-descricao, .sobre-habilidades {
+        width: 100%;
+    }
+    .sobre-habilidades {
+        margin-left: 0;
+        margin-top: 3rem;
+      
+    }
+    .redes-sociais__link {
+        width: 100%;
+        max-width: 200px;
+        padding: 1rem 0;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 5rem;
+    }
+}
+
